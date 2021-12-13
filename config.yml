@@ -101,15 +101,15 @@ params:
     enabled: true # Whether to show profile bar
     avatar: avatar.png
     gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-    author: xiaoheiAh
+    author: guyuchao3
     author_title: author title
     author_description: Good Good Study, Day Day Up~
     location: Shanghai, China
-    follow: https://github.com/xiaoheiAh
+    follow: https://github.com/guyuchao3
     # Social Links
     social:
       links:
-        github: https://github.com/xiaoheiAh
+        github: https://github.com/guyuchao3
         # weibo: http://weibo.com/{yourid}
         # twitter: https://twitter.com/
         # facebook: /
@@ -121,10 +121,10 @@ params:
       enabled: true
       width: 40
       height: 40
-      url: favicon.ico
+      url: MyHugoBlog/favicon.ico
     title: Hugo # 页面title
-    favicon: favicon.ico
-    board: <p>enjoy~</p> # 公告牌
+    favicon: MyHugoBlog/favicon.ico
+    board: <p>Hello World</p> # 公告牌
 
   # Share
   # weibo,qq,qzone,wechat,tencent,douban,diandian,facebook,twitter,google,linkedin
