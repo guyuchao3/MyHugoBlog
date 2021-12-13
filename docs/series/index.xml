@@ -10,5 +10,14 @@
         <atom:link href="https://guyuchao3.github.io/MyHugoBlog/series/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>test</title>
+      <link>https://guyuchao3.github.io/MyHugoBlog/2021/12/test/</link>
+      <pubDate>Mon, 13 Dec 2021 15:21:59 +0800</pubDate>
+      
+      <guid>https://guyuchao3.github.io/MyHugoBlog/2021/12/test/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
