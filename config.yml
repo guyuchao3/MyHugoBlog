@@ -1,5 +1,5 @@
 publishDir: docs
-baseURL: https://example.com/
+baseURL: https://guyuchao3.github.io/MyHugoBlog/
 theme: pure
 title: Pure theme for Hugo
 copyright: CC BY 4.0 CN
