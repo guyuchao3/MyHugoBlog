@@ -1,0 +1,24 @@
+<footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+  {{- partial "social.html" . }}
+  <div class="copyright">
+    {{-  $current := now.Format "2006" }}
+    Copyright &copy; 
+    {{- if lt .Site.Params.since $current -}}
+        {{- print .Site.Params.since }} - 
+    {{- end }}
+    {{ $current }} 版权所有
+    <div class="publishby">
+        {{T "copyright_theme_by"}} <a href="https://github.com/xiaoheiAh" target="_blank"> xiaoheiAh </a>{{T "copyright_base_on"}}<a href="https://github.com/xiaoheiAh/hugo-theme-pure" target="_blank"> pure</a>.
+    </div>
+    {{ if (isset .Site.Params "wangan") }}
+      <div>
+        <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode={{- print .Site.Params.wanganCode }}" target="_blank">{{- print .Site.Params.wangan }}</a>
+      </div>
+    {{ end }}
+    {{ if (isset .Site.Params "beian") }}
+      <div>
+        <a href="https://beian.miit.gov.cn/" target="_blank">{{- print .Site.Params.beian }}</a>
+      </div>
+    {{ end }}
+  </div>
+</footer>

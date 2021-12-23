@@ -1,9 +1,8 @@
-publishDir: docs
-baseURL: https://guyuchao3.github.io/MyHugoBlog/
+baseURL: https://example.com/
 theme: pure
 title: Pure theme for Hugo
 copyright: CC BY 4.0 CN
-defaultContentLanguage: zh  # en/zh/...
+defaultContentLanguage: en  # en/zh/...
 footnoteReturnLinkContents: ↩
 hasCJKLanguage: true
 paginate: 7
@@ -66,10 +65,7 @@ menu:
 
 
 params:
-  wangan: 苏公网安备
-  wanganCode: 
-  beian: 苏ICP备2021055738号-1
-  since: 2021
+  since: 2017
   dateFormatToUse: "2006-01-02"
   enablePostCopyright: true
   copyright_link: http://creativecommons.org/licenses/by/4.0/deed.zh
@@ -104,15 +100,15 @@ params:
     enabled: true # Whether to show profile bar
     avatar: avatar.png
     gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-    author: guyuchao3
+    author: xiaoheiAh
     author_title: author title
     author_description: Good Good Study, Day Day Up~
     location: Shanghai, China
-    follow: https://github.com/guyuchao3
+    follow: https://github.com/xiaoheiAh
     # Social Links
     social:
       links:
-        github: https://github.com/guyuchao3
+        github: https://github.com/xiaoheiAh
         # weibo: http://weibo.com/{yourid}
         # twitter: https://twitter.com/
         # facebook: /
@@ -124,10 +120,10 @@ params:
       enabled: true
       width: 40
       height: 40
-      url: MyHugoBlog/favicon.ico
+      url: favicon.ico
     title: Hugo # 页面title
-    favicon: MyHugoBlog/favicon.ico
-    board: <p>Hello World</p> # 公告牌
+    favicon: favicon.ico
+    board: <p>enjoy~</p> # 公告牌
 
   # Share
   # weibo,qq,qzone,wechat,tencent,douban,diandian,facebook,twitter,google,linkedin
@@ -160,7 +156,7 @@ params:
   # Donate
   donate:
     enable: false
-    # 微信打赏,二维码存放在 static 目录下
+    # 微信打赏
     wechatpay:
       qrcode: donate/wechatpayimg.png
       title: 微信支付
