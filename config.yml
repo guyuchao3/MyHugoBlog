@@ -66,8 +66,8 @@ menu:
 
 
 params:
-  wangan: 苏公网安备
-  wanganCode: 
+  # wangan: 苏公网安备
+  # wanganCode: 
   beian: 苏ICP备2021055738号-1
   since: 2021
   dateFormatToUse: "2006-01-02"
