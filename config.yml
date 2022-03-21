@@ -1,5 +1,5 @@
 publishDir: docs
-baseURL: http://www.gychaos.asia/
+baseURL: /
 theme: pure
 title: Pure theme for Hugo
 copyright: CC BY 4.0 CN
